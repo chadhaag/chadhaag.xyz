@@ -1,0 +1,119 @@
+html {
+  background-color: #330603;
+	color: white;
+	font-size: 19;
+	text-align: center;
+}
+
+body	{
+	max-width: 850px;
+	margin: 39 auto;
+}
+
+h1	{
+	color: #c99f20;
+}
+
+h2	{
+	color: white;
+}
+a:visited {
+	text-decoration: none;
+}
+
+a {
+
+	color: white;
+}
+
+/* Each state */
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none;  }
+
+
+
+div {
+	text-align: left;
+
+}
+div img {
+	margin-left: 50px;
+}
+
+ul{
+	list-style: none;
+	text-align: none;
+}
+
+ul li {
+	width: 108px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	border: #a88419;
+}
+
+ul li a {
+	display: block;
+	background-color: #1c1c1c;
+	border: #a88419;
+}
+
+ul li a:visited {
+	color: white;
+}
+ul li a:link {
+	color: white;
+
+}
+ul li a:hover {
+	background-color: #a88419;
+	color: white;
+}
+
+.menubar li a {
+    display: block;
+}
+
+.menubar {
+    display: inline-block;
+    margin: 0;
+    padding: 10;
+    zoom:1;
+}
+
+.menubar li {
+	display: block;
+	float: left;
+	width: 100px;
+    min-height: 1.5em;
+    background: #222;
+	border: #a88419 solid 2px;
+	    margin: 4px;
+
+
+}
+
+.menubar li:hover {
+    background: #000;
+}
+
+.menubar li ul {
+	visibility: hidden;
+	position: absolute;
+	padding-top: px;
+}
+
+.menubar li:hover ul {
+	visibility: visible;
+    padding-left: 0;
+}
+
+.menubar li ul li {
+    float: none;
+    position: relative;
+    width: 106px;
+    text-align: center;
+}
